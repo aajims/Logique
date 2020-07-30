@@ -6,6 +6,29 @@
   height: 40vmin;
   pointer-events: none;
 }
+.img-film {
+  width: 100%;
+}
+.title {
+  padding: 0 5%;
+}
+.menu {
+  margin-bottom: 2%;
+}
+.menu-list {
+  width: 100%;
+  padding: 2%;
+  border-bottom: solid 1px #cccccc;
+}
+.list {
+  margin: 0 4%;
+}
+.list:active {
+  border-bottom: solid 2px yellow;
+}
+.text-title {
+  padding: 5% 2%;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -13,20 +36,6 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
 
 @keyframes App-logo-spin {
   from {
